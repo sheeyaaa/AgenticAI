@@ -30,19 +30,22 @@ def create_app(data_dir: Path | None = None, pipeline_runner=None,
                cors_origins: list[str] | None = None) -> FastAPI:
     app = FastAPI(title="PRD-to-Selenium API", version="1.0.0")
     configured_origins = cors_origins or [
-        value.strip()
-        for value in os.getenv(
-            "CORS_ORIGINS",
-            "http://localhost:3000,http://localhost:3001,"
-            "http://127.0.0.1:3000,http://127.0.0.1:3001",
-        ).split(",")
-        if value.strip()
-    ]
+    value.strip().rstrip("/")
+    for value in os.getenv(
+        "CORS_ORIGINS",
+        "http://localhost:3000,"
+        "http://localhost:3001,"
+        "http://127.0.0.1:3000,"
+        "http://127.0.0.1:3001,"
+        "https://agentic-kj7805vfe-sheeyaaa.vercel.app"
+    ).split(",")
+    if value.strip()
+]
     app.add_middleware(
         CORSMiddleware,
         allow_origins=configured_origins,
         allow_credentials=True,
-        allow_methods=["GET", "POST", "PUT"],
+        allow_methods=["*"],
         allow_headers=["*"],
     )
     default_data_dir = Path(tempfile.gettempdir()) / "prd-to-selenium-api"
