@@ -9,14 +9,14 @@ description = "ADK multi-agent PRD to Selenium test generation pipeline"
 requires-python = ">=3.11,<3.12"
 dependencies = [
   "google-adk>=1.15.0",
-  "litellm>=1.60.0",
   "pydantic>=2.7",
   "python-dotenv>=1.0",
   "pypdf>=5.0",
   "python-docx>=1.1",
+  "crewai[litellm]==1.15.41",
+  "litellm==1.105.3",
+  "a2a-sdk==0.2.13",
   "mcp>=1.2,<2",
-  "crewai==0.102.0",
-  "a2a-sdk>=0.2",
   "fastapi>=0.115",
   "python-multipart>=0.0.9",
   "uvicorn>=0.32",
