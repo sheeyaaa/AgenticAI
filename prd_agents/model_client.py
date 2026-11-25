@@ -135,7 +135,8 @@ class ProviderModelClient:
         elif api_key:
             request["api_key"] = api_key
 
-        return litellm.completion(**urllib.request.request)
+        return litellm.completion(**request)
+
     @staticmethod
     def _response_content(response: Any) -> str:
         if isinstance(response, dict):
