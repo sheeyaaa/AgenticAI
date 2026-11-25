@@ -1,5 +1,6 @@
 """FastAPI endpoints for uploading PRDs and running the sequential pipeline."""
 from __future__ import annotations
+from prd_agents.model_client import create_model_clients
 
 import os
 import tempfile
@@ -130,7 +131,6 @@ def create_app(data_dir: Path | None = None, pipeline_runner=None,
         return ModelsConfigResponse(roles=app.state.model_config_store.response())
 
     def test_role_model(role: str) -> ProviderValidationResponse:
-        from prd_agents.model_client import create_model_clients
 
         config = app.state.model_config_store.app_config().model_copy(
             update={"execution_mode": "llm"}

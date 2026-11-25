@@ -1,6 +1,7 @@
 """Provider-aware, server-side LLM clients with bounded retries and usage accounting."""
 from __future__ import annotations
-
+from pyexpat import model
+import litellm
 import json
 import time
 import urllib.error
@@ -114,22 +115,27 @@ class ProviderModelClient:
             time.sleep(delay)
         raise ProviderCallError(provider, "unknown", "The model request failed.")
 
-    def _invoke(self, provider: Provider, model: str, api_key: str | None,
-                prompt: str) -> Any:
-        import litellm
+    def _invoke(
+        self,
+        provider: Provider,
+        model: str,
+        api_key: str | None,
+        prompt: str
+    ) -> Any:
 
         request: dict[str, Any] = {
             "model": f"{provider}/{model}",
             "messages": [{"role": "user", "content": prompt}],
             "timeout": self.timeout,
             "num_retries": 0,
-        }
+    }
+
         if provider == "ollama":
             request["api_base"] = self.base_url
         elif api_key:
             request["api_key"] = api_key
-        return litellm.completion(**request)
 
+        return litellm.completion(**urllib.request.request)
     @staticmethod
     def _response_content(response: Any) -> str:
         if isinstance(response, dict):
