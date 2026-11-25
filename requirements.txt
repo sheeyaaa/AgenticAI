@@ -1,0 +1,20 @@
+-e .
+pytest>=8.0
+pytest-asyncio>=0.24
+google-adk>=1.15.0
+litellm>=1.60.0
+pydantic>=2.7
+python-dotenv>=1.0
+pypdf>=5.0
+python-docx>=1.1
+mcp>=1.2,<2
+crewai>=0.86
+a2a-sdk>=0.2
+fastapi>=0.115
+python-multipart>=0.0.9
+httpx>=0.27
+uvicorn>=0.32
+selenium>=4.27
+flake8>=7.1
+matplotlib>=3.8
+pandas>=2.2

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "TC-001",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Verify A visitor can search products by name or SKU.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "A visitor can search products by name or SKU.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-002",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Reject invalid A visitor can search products by name or SKU.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-003",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Verify Search results update when the query is submitted.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Search results update when the query is submitted.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-004",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Reject invalid Search results update when the query is submitted.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-005",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Verify An empty query shows the default catalog without an error.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "An empty query shows the default catalog without an error.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-006",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Reject invalid An empty query shows the default catalog without a",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-007",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Verify No matching results show a helpful empty state.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "No matching results show a helpful empty state.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-008",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Reject invalid No matching results show a helpful empty state.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  }
+]

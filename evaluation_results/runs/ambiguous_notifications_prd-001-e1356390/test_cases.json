@@ -1,0 +1,130 @@
+[
+  {
+    "id": "TC-001",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Verify Users can change email and SMS notification preferences.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Users can change email and SMS notification preferences.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-002",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Reject invalid Users can change email and SMS notification prefer",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-003",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Verify Saving preferences should be fast and reliable.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Saving preferences should be fast and reliable.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-004",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Reject invalid Saving preferences should be fast and reliable.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-005",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Verify The system should prevent contradictory notification setting",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The system should prevent contradictory notification settings.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-006",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Reject invalid The system should prevent contradictory notificati",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-007",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Verify If notification delivery fails, the user should be informed ",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "If notification delivery fails, the user should be informed and the previous preference should remain.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-008",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Reject invalid If notification delivery fails, the user should be",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  }
+]

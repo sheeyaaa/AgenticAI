@@ -1,0 +1,738 @@
+[
+  {
+    "id": "TC-001",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Verify Visitors can search products by keyword and filter results b",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Visitors can search products by keyword and filter results by category and price range.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-002",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Reject invalid Visitors can search products by keyword and filter",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-003",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Verify Matching products display their name, current price, product",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Matching products display their name, current price, product image, availability, and rating.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-004",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Reject invalid Matching products display their name, current pric",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-005",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Verify Empty keywords show the default catalog, while a search with",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Empty keywords show the default catalog, while a search with no matches displays a clear empty state.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-006",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Reject invalid Empty keywords show the default catalog, while a s",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-007",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Verify The price filter must reject negative values and must suppor",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The price filter must reject negative values and must support a minimum and maximum price.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-008",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Reject invalid The price filter must reject negative values and m",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-009",
+    "req_ids": [
+      "REQ-005"
+    ],
+    "title": "Verify Visitors can combine keyword, category, price, and availabil",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Visitors can combine keyword, category, price, and availability filters, clear individual filters, and sort results by relevance or price.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-010",
+    "req_ids": [
+      "REQ-005"
+    ],
+    "title": "Reject invalid Visitors can combine keyword, category, price, and",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-011",
+    "req_ids": [
+      "REQ-006"
+    ],
+    "title": "Verify Search results should preserve the selected filters when the",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Search results should preserve the selected filters when the visitor opens a product and returns to the catalog.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-012",
+    "req_ids": [
+      "REQ-006"
+    ],
+    "title": "Reject invalid Search results should preserve the selected filter",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-013",
+    "req_ids": [
+      "REQ-007"
+    ],
+    "title": "Verify Visitors can add products to the cart, update quantities, an",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Visitors can add products to the cart, update quantities, and remove products.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-014",
+    "req_ids": [
+      "REQ-007"
+    ],
+    "title": "Reject invalid Visitors can add products to the cart, update quan",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-015",
+    "req_ids": [
+      "REQ-008"
+    ],
+    "title": "Verify The cart total reflects quantity changes immediately.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The cart total reflects quantity changes immediately.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-016",
+    "req_ids": [
+      "REQ-008"
+    ],
+    "title": "Reject invalid The cart total reflects quantity changes immediate",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-017",
+    "req_ids": [
+      "REQ-009"
+    ],
+    "title": "Verify A product cannot be added when it is unavailable, and the qu",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "A product cannot be added when it is unavailable, and the quantity cannot exceed current stock.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-018",
+    "req_ids": [
+      "REQ-009"
+    ],
+    "title": "Reject invalid A product cannot be added when it is unavailable, ",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-019",
+    "req_ids": [
+      "REQ-010"
+    ],
+    "title": "Verify The cart displays unit price, quantity, item subtotal, shipp",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The cart displays unit price, quantity, item subtotal, shipping estimate, and total.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-020",
+    "req_ids": [
+      "REQ-010"
+    ],
+    "title": "Reject invalid The cart displays unit price, quantity, item subto",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-021",
+    "req_ids": [
+      "REQ-011"
+    ],
+    "title": "Verify Applying an invalid or expired discount code shows an error ",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Applying an invalid or expired discount code shows an error without changing the total.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-022",
+    "req_ids": [
+      "REQ-011"
+    ],
+    "title": "Reject invalid Applying an invalid or expired discount code shows",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-023",
+    "req_ids": [
+      "REQ-012"
+    ],
+    "title": "Verify If the price or availability changes before checkout, the ca",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "If the price or availability changes before checkout, the cart identifies the affected item and requires the visitor to review the updated value.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-024",
+    "req_ids": [
+      "REQ-012"
+    ],
+    "title": "Reject invalid If the price or availability changes before checko",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-025",
+    "req_ids": [
+      "REQ-013"
+    ],
+    "title": "Verify Cart contents persist for the current visitor when the page ",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Cart contents persist for the current visitor when the page is refreshed.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-026",
+    "req_ids": [
+      "REQ-013"
+    ],
+    "title": "Reject invalid Cart contents persist for the current visitor when",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-027",
+    "req_ids": [
+      "REQ-014"
+    ],
+    "title": "Verify A customer must provide a valid shipping address before plac",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "A customer must provide a valid shipping address before placing an order.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-028",
+    "req_ids": [
+      "REQ-014"
+    ],
+    "title": "Reject invalid A customer must provide a valid shipping address b",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-029",
+    "req_ids": [
+      "REQ-015"
+    ],
+    "title": "Verify The address form validates recipient name, street, city, pos",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The address form validates recipient name, street, city, postal code, country, and contact number.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-030",
+    "req_ids": [
+      "REQ-015"
+    ],
+    "title": "Reject invalid The address form validates recipient name, street,",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-031",
+    "req_ids": [
+      "REQ-016"
+    ],
+    "title": "Verify Customers can select a saved address or enter a new one.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Customers can select a saved address or enter a new one.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-032",
+    "req_ids": [
+      "REQ-016"
+    ],
+    "title": "Reject invalid Customers can select a saved address or enter a ne",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-033",
+    "req_ids": [
+      "REQ-017"
+    ],
+    "title": "Verify The order review displays items, quantities, discounts, ship",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The order review displays items, quantities, discounts, shipping cost, tax, and final total before submission.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-034",
+    "req_ids": [
+      "REQ-017"
+    ],
+    "title": "Reject invalid The order review displays items, quantities, disco",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-035",
+    "req_ids": [
+      "REQ-018"
+    ],
+    "title": "Verify Successful checkout displays an order confirmation number an",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Successful checkout displays an order confirmation number and order status, and prevents duplicate submission when the customer refreshes the confirmation page.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-036",
+    "req_ids": [
+      "REQ-018"
+    ],
+    "title": "Reject invalid Successful checkout displays an order confirmation",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-037",
+    "req_ids": [
+      "REQ-019"
+    ],
+    "title": "Verify Payment failures leave the cart available for retry and must",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Payment failures leave the cart available for retry and must not create a successful order.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-038",
+    "req_ids": [
+      "REQ-019"
+    ],
+    "title": "Reject invalid Payment failures leave the cart available for retr",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-039",
+    "req_ids": [
+      "REQ-020"
+    ],
+    "title": "Verify Each product details page shows a description, specification",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Each product details page shows a description, specifications, available variants, stock status, and related products.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-040",
+    "req_ids": [
+      "REQ-020"
+    ],
+    "title": "Reject invalid Each product details page shows a description, spe",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-041",
+    "req_ids": [
+      "REQ-021"
+    ],
+    "title": "Verify Selecting a variant updates its price and availability befor",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Selecting a variant updates its price and availability before it is added to the cart.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-042",
+    "req_ids": [
+      "REQ-021"
+    ],
+    "title": "Reject invalid Selecting a variant updates its price and availabi",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-043",
+    "req_ids": [
+      "REQ-022"
+    ],
+    "title": "Verify Catalog controls, messages, and checkout fields have accessi",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Catalog controls, messages, and checkout fields have accessible labels and can be operated with keyboard navigation.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-044",
+    "req_ids": [
+      "REQ-022"
+    ],
+    "title": "Reject invalid Catalog controls, messages, and checkout fields ha",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-045",
+    "req_ids": [
+      "REQ-023"
+    ],
+    "title": "Verify Images provide alternative text, and validation errors are a",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Images provide alternative text, and validation errors are announced next to the affected controls.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-046",
+    "req_ids": [
+      "REQ-023"
+    ],
+    "title": "Reject invalid Images provide alternative text, and validation er",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  }
+]

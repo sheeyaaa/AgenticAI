@@ -1,0 +1,36 @@
+{
+  "source_path": "samples\\evaluation\\pagination_prd.md",
+  "iterations": 1,
+  "final_quality_score": 1.0,
+  "final_coverage_score": 1.0,
+  "deterministic_coverage_percent": 100.0,
+  "remaining_gaps": {
+    "uncovered_requirement_ids": [],
+    "missing_positive_requirement_ids": [],
+    "missing_negative_requirement_ids": []
+  },
+  "requirement_count": 4,
+  "test_case_count": 8,
+  "script_count": 8,
+  "elapsed_seconds": 0.016,
+  "estimated_token_counts": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "scripts_validated": 8,
+  "scripts_rejected": 0,
+  "tests_executed": null,
+  "tests_passed": null,
+  "tests_failed": null,
+  "tests_blocked": null,
+  "execution_mode": "deterministic",
+  "architecture": "blackboard",
+  "orchestration_pattern": "sequential",
+  "effective_config": {
+    "max_parallel_agents": 2,
+    "max_hierarchy_cycles": 2,
+    "monitoring_enabled": true
+  },
+  "models_used": {},
+  "diagnostics": []
+}

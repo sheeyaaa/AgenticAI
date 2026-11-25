@@ -1,0 +1,130 @@
+[
+  {
+    "id": "TC-001",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Verify A user can upload a PDF document under ten megabytes.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "A user can upload a PDF document under ten megabytes.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-002",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Reject invalid A user can upload a PDF document under ten megabyt",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-003",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Verify Unsupported file types are rejected with a clear message.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Unsupported file types are rejected with a clear message.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-004",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Reject invalid Unsupported file types are rejected with a clear m",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-005",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Verify A zero-byte file is rejected.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "A zero-byte file is rejected.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-006",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Reject invalid A zero-byte file is rejected.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-007",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Verify Upload progress and completion status are shown.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Upload progress and completion status are shown.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-008",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Reject invalid Upload progress and completion status are shown.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  }
+]

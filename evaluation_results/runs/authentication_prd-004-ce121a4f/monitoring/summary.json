@@ -1,0 +1,78 @@
+{
+  "run_id": "6952505b-80ba-45a2-8837-3b1d77caa7d3",
+  "trace_id": "a5e7a0c1-a86c-438d-acff-38cf7c91add0",
+  "orchestration_pattern": "sequential",
+  "event_count": 30,
+  "agent_metrics": {
+    "ingest": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "chunker": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "extractor": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "generator": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "critic": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "selenium_script_generator": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    },
+    "script_validator": {
+      "invocations": 1,
+      "average_duration_ms": 0.0,
+      "p95_duration_ms": 0.0,
+      "failure_count": 0,
+      "retry_count": 0,
+      "tool_call_count": 0,
+      "validation_failure_count": 0
+    }
+  },
+  "total_duration_ms": 0.0,
+  "maximum_observed_concurrency": 3,
+  "blackboard_reads": 0,
+  "blackboard_writes": 12,
+  "tool_calls": 0,
+  "retries": 0,
+  "status": "completed"
+}

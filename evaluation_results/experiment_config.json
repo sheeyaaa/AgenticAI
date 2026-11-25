@@ -1,0 +1,20 @@
+{
+  "evaluation": {
+    "scenarios_dir": "samples\\evaluation",
+    "output_dir": "evaluation_results",
+    "repeats": 5,
+    "browser_execution": false,
+    "input_token_price_per_million": 0.0,
+    "output_token_price_per_million": 0.0,
+    "max_iterations": 3,
+    "seed": 0
+  },
+  "environment": {
+    "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cwd": "C:\\Users\\supri\\Desktop\\Agentic Ai",
+    "pid": 28892
+  },
+  "sequential_only": true,
+  "generated_at": "2026-11-02T18:04:44.561520+00:00"
+}

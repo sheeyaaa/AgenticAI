@@ -1,0 +1,130 @@
+[
+  {
+    "id": "TC-001",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Verify Results are displayed in pages of twenty items.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Results are displayed in pages of twenty items.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-002",
+    "req_ids": [
+      "REQ-001"
+    ],
+    "title": "Reject invalid Results are displayed in pages of twenty items.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-003",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Verify Next and previous controls navigate between pages.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "Next and previous controls navigate between pages.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-004",
+    "req_ids": [
+      "REQ-002"
+    ],
+    "title": "Reject invalid Next and previous controls navigate between pages.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-005",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Verify The previous control is disabled on the first page.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The previous control is disabled on the first page.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-006",
+    "req_ids": [
+      "REQ-003"
+    ],
+    "title": "Reject invalid The previous control is disabled on the first page",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  },
+  {
+    "id": "TC-007",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Verify The next control is disabled on the final page.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Perform the required action"
+    ],
+    "expected_result": "The next control is disabled on the final page.",
+    "type": "positive",
+    "priority": "high",
+    "actions": []
+  },
+  {
+    "id": "TC-008",
+    "req_ids": [
+      "REQ-004"
+    ],
+    "title": "Reject invalid The next control is disabled on the final page.",
+    "preconditions": [],
+    "steps": [
+      "Open the application",
+      "Provide invalid input"
+    ],
+    "expected_result": "An actionable validation error is displayed",
+    "type": "negative",
+    "priority": "medium",
+    "actions": []
+  }
+]

@@ -1,0 +1,8 @@
+agent,invocations,average_duration_ms,p95_duration_ms,failure_count,retry_count,tool_call_count,validation_failure_count
+ingest,1,0.0,0.0,0,0,0,0
+chunker,1,0.0,0.0,0,0,0,0
+extractor,1,0.0,0.0,0,0,0,0
+generator,1,0.0,0.0,0,0,0,0
+critic,1,0.0,0.0,0,0,0,0
+selenium_script_generator,1,0.0,0.0,0,0,0,0
+script_validator,1,15.00000013038516,15.00000013038516,0,0,0,0

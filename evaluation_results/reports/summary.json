@@ -1,0 +1,36 @@
+{
+  "runs": 50,
+  "successes": 50,
+  "failures": 0,
+  "success_rate": 1.0,
+  "latency_seconds": {
+    "mean": 0.7523922419873997,
+    "median": 0.731542200082913,
+    "min": 0.519679700024426,
+    "max": 2.0198505998123437,
+    "stdev": 0.21767142327402286,
+    "p95": 0.9444828199571927
+  },
+  "throughput_runs_per_second": 1.3290939807653506,
+  "cost": {
+    "measured_or_estimated": "estimated",
+    "total_usd": 0.0,
+    "per_prd_usd": 0.0,
+    "projected_100_prds_usd": 0.0,
+    "projected_1000_prds_usd": 0.0
+  },
+  "coverage": {
+    "mean": 1.0,
+    "script_validation_rate": 1.0
+  },
+  "stage_latency_seconds_total": {
+    "script_validator": 0.24999999976716936,
+    "selenium_script_generator": 0.015999999828636646,
+    "ingest": 0.01500000013038516,
+    "chunker": 0.0,
+    "extractor": 0.0,
+    "generator": 0.0,
+    "critic": 0.0
+  },
+  "stage_failure_counts": {}
+}

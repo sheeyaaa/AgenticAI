@@ -1,0 +1,65 @@
+{
+  "ingest": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "chunker": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "extractor": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "generator": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "critic": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "selenium_script_generator": {
+    "invocations": 1,
+    "average_duration_ms": 0.0,
+    "p95_duration_ms": 0.0,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  },
+  "script_validator": {
+    "invocations": 1,
+    "average_duration_ms": 14.999999897554517,
+    "p95_duration_ms": 14.999999897554517,
+    "failure_count": 0,
+    "retry_count": 0,
+    "tool_call_count": 0,
+    "validation_failure_count": 0
+  }
+}
